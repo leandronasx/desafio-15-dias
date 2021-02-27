@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Documentação PHP</title>
+	<meta charset="utf-8">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="body">
+		<aside class="side-bar">
+		<nav id="navbar">
+			<header>Tópicos PHP</header>
+
+			<ul>
+				<li><a href="#Introdução" class="nav-link">Introdução</a></li>
+				<li><a href="#Porque" class="nav-link">Porque</a></li>
+				<li><a href="#Variáveis" class="nav-link">Variáveis</a></li>
+				<li><a href="#Operadores" class="nav-link">Operadores</a></li>
+				<li><a href="#Condicional" class="nav-link">Condicional</a></li>
+				<li><a href="#Repetição" class="nav-link">Repetição</a></li>
+				<li><a href="#Array" class="nav-link">Array</a></li>
+				<li><a href="#Função" class="nav-link">Função</a></li>
+			</ul>
+		</nav>
+	</aside>
+
+	<main id="main-doc" class="main">
+		<section id="Introdução" class="main-section">
+			<header>Introdução</header>
+			<p>O PHP (um acrônimo recursivo para PHP: Hypertext Preprocessor) é uma linguagem de script open source de uso geral, muito utilizada, e especialmente adequada para o desenvolvimento web e que pode ser embutida dentro do HTM</p>
+
+			<p>Criado por Rasmus Lerdorf em 1995, o PHP tem a produção de sua implementação principal, referência formal da linguagem, mantida por uma organização chamada The PHP Group. O PHP é software livre, licenciado sob a PHP License, uma licença incompatível com a GNU General Public License (GPL) devido a restrições no uso do termo PHP.</p>
+
+			<p>Como é uma linguagem que trabalha do lado do servidor você pode manipular banco de dados, arquivos, enviar e-mail e muito mais.</p>
+
+			<p>Última versão: 8.0.1</p>
+		</section>
+
+
+		<section id="Porque" class="main-section">
+			<header>Porque</header>
+			<ul>
+				<li>Trabalha do lado do servidor</li>
+				<li>Tipagem dinámica</li>
+				<li>Linguagem de fácil sintaxe</li>
+				<li>Vários recursos avançados</li>
+				<li>Uma linguagem de vários paradigmas</li>
+				<li>Prodedural</li>
+				<li>Funcional</li>
+				<li>Orientação a objetos</li>
+			</ul>
+		</section>
+
+		<section id="Variáveis" class="main-section">
+			<header>Variáveis</header>
+
+			<p>Variáveis são como gavetas, servem para armazenar coisa, essas coisa podem ser de vários tipos como shot, camisa e meia. Trazendo para computação nas variáveis podemos guardas nomes(strings), números inteiros(int), números reais(float) entre outros.</p>
+
+			<p>Em PHP para se declarar uma variável ultiliza-se o $ antes do nome, sempre no final do código não esqueça de ultilizar ';' ponto e virgula.</p>
+
+			<code>
+				$nome = "Leandro";<br>
+				$num1 = 10;<br>
+				$num2 = 50.40;<br>
+			</code>
+		</section>
+
+
+		<section id="Operadores" class="main-section">
+			<header>Operadores</header>
+
+			<p>Operadores matemáticos são ultilizados para fazerem operações mátematicas como; adição, subtração, divisão e multiplicação.</p>
+
+			<p>Para fazer uma operação matemática</p>
+			<code>
+				$soma = $num1 + $num2; // adição<br><br>
+				$sub = $num1 - $num2; // subtração<br><br>
+				$div = $num1 / $num2; // divisão<br><br>
+				$mult = $num1 * $num2; // multiplicação 
+			</code>
+		</section>
+
+
+		<section id="Condicional" class="main-section">
+			<header>Condicional</header>
+
+			<p>Condicional, é muito importante em programação. É ultilizar para romper o fluxo linear do algoritmo, que é execultar uma linha apos a outra, por algums motivo você quer que parte do seu código não seja execultado se caso aconteça.</p>
+
+			<p>Para criar uma condição ultilizamos a estrutura if, else if e else</p>
+			<code>
+				if($media >= 7){<br>
+			        echo "Parabens voce  passou";<br>
+			    }else if($media >= 6){<br>
+			        echo "Você ainda tem chance, recuperação";<br>
+			    }else{<br>
+			        echo "Ops, não foi dessa vez";<br>
+			    }
+			</code>
+		</section>
+
+
+		<section id="Repetição" class="main-section">
+			<header>Repetição</header>
+
+			<p>Repetição é de suma importancia na programação é ultilizada quando temos código sendo repetido, então não escrevemos várias vezes algo, apenas colocamos dentro de um loop e aquela parte do código pode ser repetida 1000 vezes  se escrever aquele código 1000 vezes.</p>
+
+			<p>Para criar um loop existe duas formar com for e while</p>
+
+			<p>O loop while é o enquanto</p>
+			<code>
+				$i = 1;<br>
+			    while(true){<br>
+			        if ($i > 2){<br>
+			            break;<br>
+			        }<br>
+			        echo "Interação while i = $i";<br>
+			        $i++;<br>
+			    }
+			</code>
+
+			<p>O loop for é um iterador</p>
+			<code>
+				for($i=0; $i < 2; $i++){<br>
+                	echo "Interação for = $i";<br>
+           		}
+			</code>
+		</section>
+
+
+		<section id="Array" class="main-section">
+			<header>Array</header>
+
+			<p>Arrays são um tipo de dados complexo, que funciona como uma lista, pode ter vários dados e de diversos tipos</p>
+
+			<p>Para fazer um array simples, usa a função array()</p>
+			<code>
+				$numeros = array(10, 20, 30, 40, 50);<br><br>
+
+				$lista = array("nome", "Leandro", "idade", 21, "Cidade", "Tucano"); 
+			</code>
+
+			<p>Para criar uma array de mais dimencões</p>
+			<code>
+				$matriz = array(<br>
+			        array("XJ6", 16000),<br>
+			        array("Pop100", 7000),<br>
+			        array("150", 8500)<br>
+			    );
+			</code>
+		</section>
+
+
+
+		<section id="Função" class="main-section">
+			<header>Função</header>
+
+			<p>Esse é um paradigma de programação, funções são essenciais, criamos bloco de código para realizar algum procedimentos, e pode chamar onde quisermos e quando quisermos basta chamar o nome da função exemplo: gerar_Pdf()</p>
+
+			<p>Para criar uma função usa a palavar reservada function</p>
+
+			<code>
+				function potencia($number, $n_pontecia){<br>
+			        for($i = 1; $i<($n_pontecia-1); $i++){<br>
+			            $number *= $number;<br>
+			        }<br>
+			        return $number;<br>
+			    }
+			</code>
+		</section>
+	</main>
+	</div>
+	
+
+
+
+
+
+
+	<footer class="footer">
+		<div>
+			<p>Se tiver tempo, e quiser se aprofundar mais no desevolvimento web acesse a documentação completa.</p>
+			<a href="https://www.php.net/docs.php">Documentação PHP</a>
+		</div>
+	</footer>
+</body>
+</html>

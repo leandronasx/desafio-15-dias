@@ -1,0 +1,255 @@
+/* Estilo css para a página Outlet Povão*/
+
+
+/* Reseter os padrões*/
+html, body{
+    width: 100%;
+	margin:0;
+	padding: 0;
+	background-color: #061c3d;
+	color: #fff;
+	font-family: sans-serif;
+}
+a{
+	color: #fff;
+	text-decoration:none;
+}
+ul, li{
+	list-style: none;
+	display: inline-block;
+	word-spacing: 5px;
+}
+
+h1, h2{
+	text-transform: uppercase;
+}
+
+img{
+	max-width: 285px;
+}
+
+
+
+/* Classe logo*/
+.out{
+	color: #fff;
+}
+.pov{
+	color: #6495ed;
+}
+
+
+
+/* Classe geral*/
+
+.div-principal{
+	width: 100%;
+	float:left;
+}
+
+.conteine{
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+
+/* Classe header*/
+.header{
+	padding: 15px 0;
+	position: relative;
+}
+
+.header-logo{
+	float: left;
+	position: absolute;
+}
+.header-logo h1 {
+	position: absolute;
+	top: -5px;
+}
+.header-logo h1::before{
+	position: absolute;
+	background-color: #fff;
+	top:-40px;
+	content: "";
+	padding: 15px 0;
+	width: 100%;
+}
+.header-logo h1::after{
+	position: absolute;
+	content:"";
+	background-color: #6495ed;
+	padding: 15px 0;
+	top:-40px;
+	width: 46%;
+	left: 54%;
+}
+
+
+.header-menu{
+	float:right;
+}
+.header-menu a {
+	font-size: 20px;
+}
+
+
+
+/* class bem-vindo*/
+
+.bem-vindo{
+	text-align:center;
+	padding: 10px 0;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.bem-vindo .conteine{
+	width: 650px;
+}
+.bem-vindo h2{
+	font-size: 25px;
+	font-weight: normal;
+	color: #6495ed;
+}
+.bem-vindo p{
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+/* class camisas */
+
+.roupas{
+	position: relative;
+	padding: 50px 0;
+	background-color: #fff;
+}
+.title{
+	width: 100%;
+	font-size: 15px;
+	border-bottom: 2px solid #959595;
+	padding-bottom: 5px;
+}
+
+.title span{
+	color: #6495ed;
+	z-index: 2;
+	width: 30%;
+	border-bottom: 2px solid #6495ed;
+	padding-bottom: 5px;
+}
+
+.roupas-lista{
+	float: left;
+    width: 30.66%;
+    margin-top: 5px;
+}
+.roupas-lista:nth-of-type(2){
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+.roupas-lista img{
+    transition: all .05s ease;
+    transform: scale(1.1);
+}
+.roupas-lista img:hover{
+	transform: scale(1);
+}
+.roupas-lista h3 {
+	color: #061c3d;
+}
+.roupas-lista p {
+	color: #959595;
+	text-align: justify;
+}
+
+
+/* class contato*/
+.contato{
+	padding: 30px 0;
+	background-color: #6495ed;
+}
+
+.contato h2{
+	text-align: center;
+}
+
+.contato-form{
+	width: 100%;
+	float: left;
+}
+
+
+.contato-form div{
+	width: 48%;
+}
+.contato-form div label{
+	width: 100%;
+	margin-bottom: 5px;
+} 
+.contato-form div label input{
+	width: 100%;
+	padding: 10px 0;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	outline: none;
+} 
+.contato-form div label textarea{
+	width: 100%;
+	padding: 35px 0;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	font-size: 15px;
+	outline: none;
+} 
+.contato-form div:nth-of-type(1){
+	float: left;
+}
+
+.contato-form div:nth-of-type(2){
+	float: right;
+}
+
+.contato-form p {
+	float: left;
+	width: 100%;
+	text-align: right;
+}
+
+.contato-form p input{
+	color: #fff;
+	padding: 5px 10px;
+    border: 1px solid #fff;
+}
+.contato-form p input[type="reset"]{
+	background-color: rgba(248, 65, 65, .7);
+}
+.contato-form p input[type="reset"]:hover{
+	background-color: rgba(248, 65, 65, 1);
+}
+
+.contato-form p input[type="button"]{
+	background-color: rgba(50, 185, 50, .7);
+}
+.contato-form p input[type="button"]:hover{
+	background-color: rgba(50, 185, 50, 1);
+}
+
+
+/* class footer*/
+.footer{
+	padding: 10px 0;
+}
+
+.footer p{
+	float: left;
+}
+
+.footer ul{
+	float: right;
+}

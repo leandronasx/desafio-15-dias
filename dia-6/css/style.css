@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+	font-family: 'Roboto', sans-serif;
+	outline: none;
+	border: none;
+}
+
+/* Background*/
+.image-background{
+	color: #fff;
+	background-image: url("../imagem/mulheres-empreendedoras-1666x1274.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/*Geral*/
+.linha{
+	width: 100%;
+	float: left;
+}
+.content{
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+/* Header*/
+.header{
+	padding: 20px 0;
+	text-align: center;
+}
+.header h1{
+	font-size: 2.5rem;
+	margin-bottom: 15px;
+	text-shadow: 0 0 3px black;
+}
+.header p{
+	margin-bottom: 15px;
+	text-shadow: 0 0 3px black;
+}
+
+/*Form*/
+#survey-form{
+	width: 50%;
+	padding: 20px;
+	margin-bottom: 30px;
+	background-color: rgba(27, 27, 50, 0.8);
+}
+
+#survey-form span, #survey-form input[type="text"], #survey-form select, #survey-form textarea, 
+#survey-form h2, #survey-form button,  #survey-form input[type="email"], #survey-form input[type="number"]{
+	width: 100%;
+}
+
+ #survey-form input[type="text"],  #survey-form input[type="email"],  #survey-form input[type="number"],
+ #survey-form select{
+ 	padding: 10px 5px;
+ 	border-radius: 5px;
+ 	margin-bottom: 20px;
+ 	margin-top: 5px;
+ }
+
+ #survey-form textarea{
+ 	padding: 25px 5px;
+ 	margin-bottom: 20px;
+ 	margin-top: 5px;
+ 	border-radius: 1px;
+ }
+
+#survey-form button{
+ 	padding: 10px 0;
+ 	border-radius: 1px;
+ 	margin-top: 20px;
+ 	background-color: rgba(32, 189, 50, .8);
+ 	color: #fff;
+}
+
+#survey-form button:hover{
+	background-color:rgba(32, 189, 50, 1);
+}
+
+#survey-form h2{
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+#survey-form p:last-of-type{
+	margin-bottom: 25px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form - Mulheres Empreendedoras </title>
+	<meta charset="utf-8">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body class="image-background">
+	<header class="linha header">
+		<div class="content">
+			<h1 id="title">Mulheres Empreendedoras</h1>
+			<p id="description">Gostaríamos de saber, das mulheres que empreenderam ou pretendem empreender, quais são as principais adversidades que enfrentaram ou podem vir enfrentar no seu negócio.</p>
+		</div>
+	</header>
+
+	<div class="linha">
+		<form id="survey-form" class="content">
+			<label id="name-label" for="name">Nome</label>
+			<input type="text" name="name" id="name" placeholder="Seu nome" required>
+
+			<label id="email-label" for="email">Email</label>
+			<input type="email" name="email" id="email" placeholder="Seu email" required>
+
+			<label id="number-label" for="number">Idade</label>
+			<input type="number" name="number" id="number" min="18" max="65" placeholder="Sua idade">
+
+			<label for="dropdown">Qual é a maior dificuldade?</label>
+			<select id="dropdown" name="dropdown">
+				<option checked>Selecione</option>
+				<option>Gestão de pessoas</option>
+				<option>Fornecedor</option>
+				<option>Crédito e Finanças</option>
+				<option>Marketing, Vendas e Tecnologia</option>
+				<option>Conhecer pessoas da área</option>
+			</select>
+
+			<h2>Você gostaria de um curso para lhe auxiliar? Ou delegar?</h2>
+			<p><input type="radio" name="curso" value="sim">
+			 Só o curso é suficiente. Depois sigo sozinha.</p>
+
+			<p><input type="radio" name="curso" value="delegar">
+			 Prefiro delegar e eu assumo depois de criado.</p>
+			
+			<p><input type="radio" name="curso" value="nao">
+			 Não preciso, já sei como funciona.</p>
+
+
+			<h2>Gestão de Pessoas</h2>
+			<span>Qual é a sua principal dificuldade?</span>
+			<p><input type="checkbox" name="gestao" value="motivacao"> Manter a motivação</p>
+			<p><input type="checkbox" name="gestao" value="pessoas"> Encontrar pessoas qualificadas</p>
+			<p><input type="checkbox" name="gestao" value="terinamento"> Treinamento</p>
+			<p><input type="checkbox" name="gestao" value="pagamento"> Controle do pagamento</p>
+			<p><input type="checkbox" name="gestao" value="cultura"> Manter um bom clima na empresa</p>
+
+
+			<label for="msg">Feedback</label>
+			<textarea placeholder="Seu feedback" name="msg"></textarea>
+
+
+			<button id="submit" type="submit">ENVIAR</button>
+		</form>
+	</div>
+
+</body>
+</html>

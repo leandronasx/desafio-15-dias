@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.header{
+    background-color: rgb(50, 63, 79);
+    color: #fbfbfb;
+    padding: 20px 0;
+}
+.header nav ul{
+    list-style: none;
+}
+.header nav ul li{
+    display: inline;
+}
+.header nav ul li a{
+    color: #fbfbfb;
+    text-decoration: none;
+    padding: 0 15px;
+}
+.header .conteiner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*  Geral */
+.text-pink{
+    color: rgb(253, 104, 97) !important;
+}
+.bg-pink{
+    background-color: rgb(253, 104, 97);
+    padding: 8px 15px !important;
+    border-radius: 4px;
+}
+
+/* Main */
+
+/* Tecnologias */
+.tecnologias{
+    background: linear-gradient(darkgray, rgb(183, 183, 183));
+    color: #EEE;
+    padding: 100px 0;
+}
+.tecnologias .conteiner{
+    display: flex;
+    justify-content: space-evenly;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+}
+.services h2{
+   font-size: 2.5rem;
+}
+.services h3{
+    font-size: 1.4rem;
+    color: #fff;
+    margin: 10px 0;
+}
+.services p{
+    text-align: center;
+}
+
+/* Servicos-web */
+.servicos-web{
+    background-color: rgb(70, 85, 104);
+    color: #EEE;
+    padding: 60px 0;
+    position: relative;
+}
+
+.servicos-web .conteiner{
+    display: flex;
+    justify-content: space-around;
+}
+.servicos-web  .services {
+    align-items: flex-start;
+    width: 320px;
+}
+.servicos-web .services h2{
+    text-align: left;
+    font-size: 2rem;
+ }
+.servicos-web .services h3{
+    text-align: left;
+    font-size: 1.2rem;
+}
+ .servicos-web .services p{
+     text-align: left;
+     font-size: .8rem;
+ }
+
+ .servicos-web .titulo{
+     text-align: center;
+     margin-bottom: 40px;
+ }
+ .servicos-web .titulo h2{
+   font-size: 1.5rem;
+   margin-bottom: 20px;
+}
+ .barra-arrow{
+    padding: 0 20px;
+ }
+ .barra-arrow i{
+    color: #aaa;
+    margin-right: 20px;
+    margin-top: -20px;
+ }
+ .barra-arrow::before{
+     content: "";
+     width: 200px;
+     height: 1px;
+     background-color: #aaa;
+     position: absolute;
+     left: 32%;
+     margin-top: 10px;
+ }
+ .barra-arrow::after{
+    content: "";
+    width: 200px;
+    height: 1px;
+    background-color: #aaa;
+    position: absolute;
+    left: 52%;
+    margin-top: 10px;
+}
+
+
+/* Estilos Footer */
+.footer{
+    padding: 10px 0;
+    background-color:  rgb(253, 104, 97);
+    color: #fff;
+}
+.footer .conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .footer-info{
+    display: flex;
+    flex-direction: column;
+}
+.footer .footer-sociais{
+    display: flex;
+}
+.footer .footer-sociais i{
+    font-size: 2rem;
+    padding: 0 10px;
+}
+.footer .footer-sociais i:hover{
+    color: rgb(50, 63, 79);
+}

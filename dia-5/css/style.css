@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 100%;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+/* Geral*/
+body{
+	background-color: #eee;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.content{
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.text-center{
+	text-align: center;
+}
+
+
+/* Header */
+.header{
+	padding: 40px 0;
+	background-color: #eee;
+}
+#title{
+	font-size: 3rem;
+}
+.header p{
+	font-size: 1.1rem;
+	font-weight: right;
+}
+
+
+/* Secao */
+.secao{
+	background-color: #fff;
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+#img-div{
+	width: 80%;
+	margin: 0 auto;
+}
+#img-div img{
+	padding-top: 40px;
+}
+#img-div figcaption{
+	margin-top: 5px;
+}
+
+
+/* tribute */
+.tribute{
+	background-color: #eee;
+	padding: 20px 0;
+}
+
+#tribute-info{
+	text-align: center;
+	font-size: 1.2rem;
+	margin: 20px 0;
+}
+.tribute ul{
+	margin-top: 50px;
+	margin-left: 5vw;
+}
+
+
+/* Footer */
+.footer{
+	padding: 20px 0;
+}
+.footer p{
+	font-size: 1.2rem;
+}
+.footer p a{
+	text-decoration: none;
+	color: darkblue;
+}
+.footer p a:hover{
+	text-decoration: underline darkred;
+	color: darkred;
+}
+
+
+
+

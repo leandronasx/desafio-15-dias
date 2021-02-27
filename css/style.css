@@ -1,0 +1,117 @@
+html, body{
+    margin:0;
+    background-color: #f2eded;
+    width: 100%;
+    height: 100%;
+}
+#cabecalho{
+    width: 100%;
+    margin: 0;
+    line-height: 1em;
+}
+#navegacao{
+    width: 23%;
+    margin: 0;
+    float: right;
+    word-spacing: 5px;/* afastamento entre palavras: leandro    jesus */
+}
+.link-menu{
+    text-decoration:none;
+    font-family: "Titillium Web";
+    font-size:22px;
+    color:#615555;
+    list-style:none;
+    display: inline-block;
+}
+.lista-menu:hover{
+    transform: scale(1.15);
+}
+#hr-linha{
+    width: 98%;
+    margin-left: 10px;
+    margin-right:10px;
+    border:0;
+    border-top:1px solid #736e6e;
+    box-sizing:border-box; 
+}
+#divi-pagra{
+    margin-left: 10%;
+}
+#h1-ola{
+    font-family: monospace;
+    font-size: 85px;
+    color:#f0910c;
+    line-height: 0em;
+}
+.span-des{
+    font-family: "Titillium Web";
+    font-size:18px;
+    color: #736e6e;
+    display: block;
+    line-height: 1em;
+}
+#span-site{
+    font-family: monospace;
+    font-size: 28px;
+    color:#f0910c;
+    font-weight: bold;
+    line-height: 1em;
+}
+.hr-linhas{
+    margin-top: 3%;
+    width: 80%;
+    border:0;
+    border-top:1px solid #171716;
+    box-sizing:border-box; 
+}
+#div-linha{
+    width: 80%;
+    border-top: 1px solid #171716;
+    border-bottom: 1px solid #171716;
+    margin-left: 10%;
+}
+#pagrafo{
+    margin-top: 2%;
+    margin-left:39%;
+    text-align:justify;
+    line-height: 2em;
+}
+#span-web{
+    font-family: "Titillium Web";
+    font-size:25px;
+    color: #736e6e;
+    display: block;
+}
+#span-mun{
+    font-family: "Titillium Web";
+    font-size:25px;
+    color: #f0910c;
+    display: block;
+    margin-left: 11%;
+    font-weight: bold;
+}
+#div-de-divs{
+    width: 80%;
+    margin-left:10%;
+    line-height: 1.5em;
+    margin-top:3%;
+    padding-bottom: 30px;
+}
+#div-de-divs div {
+    font-family: monospace;
+    color:#615555;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+#div-de-divs div a {
+    text-decoration:none;
+    font-size: 16px;
+    color: #4b0f6b;
+    font-style: italic;
+    font-weight: 300;
+}
+#div-de-divs div a:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+}

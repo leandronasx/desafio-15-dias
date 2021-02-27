@@ -1,0 +1,173 @@
+*{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	box-sizing: border-box;
+}
+a{
+	text-decoration:none;
+	color: #f71d1d;
+}
+/* GERAL
+--------------------------------------------------------------------------*/
+
+.containe{
+	max-width: 960px;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.lan{
+	color: darkred;
+	font-size: 1.3em;
+	margin-bottom: 5px;
+	display: block;
+	font-weight: bold;
+
+}
+.ba{
+	color: #016fba;
+}
+.en{
+	color: #e54d26;
+}
+
+
+/* HEADER
+-------------------------------------------------------------------------*/
+
+.header{
+	padding: 15px 0;
+	width: 100%;
+	background-color:white;
+	float: left;
+}
+
+.header-logo{
+	float: left;
+	width: 40%;
+}
+.header-logo h1{
+	font-size: 2.2em;
+}
+
+.header-nav{
+	width: 40%;
+	float: right;
+	margin-top: 8px;
+}
+.header-nav ul{
+	list-style: none;
+}
+.header-nav ul li{
+	display: inline;
+	margin-left: 10px;
+}
+.header-nav a{
+	text-decoration: none;
+	color: #900;
+	font-size: 1.2em;
+}
+
+/* SECAO
+------------------------------------------------------------*/
+
+.secao .containe{
+	width: 590px;
+	margin: 0 auto;
+}
+.secao{
+	width: 100%;
+	background-color: #ff6996;
+	clear: both;
+	padding: 20px;
+}
+
+.secao p{
+	color: white;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+/**/
+
+.his{
+	width: 100%;
+	float: left;
+	padding: 15px 0;
+}
+.his-social{
+	float: left;
+	width: 30%;
+}
+.his-social li{
+	list-style: none;
+	text-align: left;
+	margin-top: 2%;
+	font-size: 1.2em;
+}
+.his-social a{
+	text-decoration: none;
+	color: #900;
+	font-size: 1.1em;
+}
+
+
+.his-breve{
+	float: right;
+	width: 70%;
+}
+.his-breve p{
+	color: gray;
+	font-size: 1.1em;
+	text-align: left;
+	margin-top: 10px;
+}
+
+
+
+.artigos{
+	background-color: #faafaf;
+	padding: 20px 0;
+	width: 100%;
+	float: left;
+
+}
+.artigos h3{
+	border-bottom: 2px solid darkred;
+	color: darkred;
+	font-size: 1.4em;
+	padding-bottom: 5px;
+}
+
+.art{
+	width: 100%;
+	float: left;
+}
+
+.art-col{
+	float: left;
+	width: 30.66%;
+	margin-right: 4%;
+	color: darkred;
+	margin-top: 8px;
+}
+.art-col:last-child{
+	margin-right: 0;
+}
+.art-col a p{
+	text-align: justify;
+	color: darkred;
+}
+
+.footer{
+	background-color: white;
+	padding: 10px 0;
+	width: 100%;
+	clear: both;
+	text-align: center;
+}

@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+}
+img{
+    width: 30%;
+    display: block;
+}
+
+.row{
+    width: 100%;
+    float: left;
+}
+.conteiner{
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+.header{
+    background-color: lightskyblue;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+    position: fixed;
+    top: 0;
+}
+.header nav ul, .header nav li{
+    list-style: none;
+    display: inline;
+    padding: 10px 20px;
+}
+.header nav ul li a{
+    text-decoration: none;
+    color: #eee;
+}
+
+.main{
+    background-color: #eee;
+    margin-top: 60px;
+}
+.main .conteiner{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.titulo{
+    font-size: 2.5rem;
+    font-weight: normal;
+    text-align: center;
+    padding: 20px 0;
+    color: #111;
+}
+
+#sobre-mim{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#sobre-mim div{
+    margin-left: 30px;
+}
+#sobre-mim div h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+#sobre-mim div p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.frase{
+    padding: 20px 0;
+    background-color: rgb(43, 156, 226);
+    text-align: center;
+    margin-top: 12px;
+    color: #fff;
+}
+.frase p:first-child{
+    font-size: 1.3rem;
+}
+.frase p:last-child{
+    font-size: 1rem;
+    margin-top: 5px;
+}
+
+
+
+#experiencia{
+    width: 69%;
+    float: left;
+}
+.um{
+    width: 100%;
+}
+.game-1{
+    padding: 20px;
+    width: 32%;
+    margin-right: 2%;
+    float: left;
+    background-color: lightskyblue;
+    height: 230px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.game-1:last-of-type{
+    margin-right: 0;
+}
+.dois{
+    width: 100%;
+}
+.game-2{ 
+    padding: 20px;
+    width: 48%;
+    float: left;
+    background-color: lightskyblue;
+    height: 250px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.game-2:nth-last-child(2){
+    float: right;
+}
+
+
+#habilidade{
+    width: 29%;
+    float: right;
+    padding: 20px;
+    background-color: #fff;
+    height: 490px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#habilidade ul li{
+    margin-left: 40px;
+}
+
+#contato{
+    padding: 20px 0;
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.rodape-social img{
+    width: 50px;
+    display: inline;
+}

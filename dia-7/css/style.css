@@ -1,0 +1,210 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img, video{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+
+
+/* Geral*/
+.linha{
+	width: 100%;
+	float: left;
+}
+.content{
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+
+
+/* Header */
+.header-header{
+	width: 100%;
+	background-color: #0cae98;
+	padding: 15px 0;
+}
+#header-img{
+	background-color: #0cae98;
+	float: left;
+}
+#nav-bar{
+	background-color: #0cae98;
+	float: right;
+	margin-top: 15px;
+}
+#nav-bar ul{
+	list-style: none;
+	background-color: #0cae98;
+}
+#nav-bar li{
+	display: inline;
+	background-color: #0cae98;
+}
+#nav-bar a{
+	background-color: #0cae98;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+#nav-bar a:hover{
+	background-color: #111;
+	color: #fff;
+}
+
+
+
+/* Media*/
+.midia{
+	padding: 20px 0;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+.midia video{
+	width: 49%;
+	float: left;
+	margin-right: 2%;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+	outline: none;
+}
+.midia p{
+	width: 49%;
+	float: right;
+	text-align: justify;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+/* Estoque*/
+.estoque-class{
+	padding: 30px 0;
+}
+.estoque-info{
+	width: 30.66%;
+	float: left;
+	margin-right: 4%;
+}
+.estoque-info:last-child{
+	margin-right: 0;
+}
+.estoque-info h4{
+	margin-top: 10px;
+}
+.estoque-info p{
+	text-align: justify;
+	margin-top: 10px;
+}
+
+
+
+
+/* Contato */
+.contato-class{
+	padding: 40px 0;
+	background-color: #111;
+}
+.contato-class h2{
+	background-color: #111;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	font-size: 2.3rem;
+	padding-bottom: 20px;
+}
+
+#form{
+	width: 100%;
+	background-color: #111;
+}
+
+#form input{
+	background-color: initial;
+	font-size: 1.3rem;
+	color: #fff;
+	width: 30%; 
+	padding: 15px 5px;
+	outline: none;
+	border: none;
+	border: 1px solid #fff;
+	border-radius: 7px;
+}
+#form input:nth-child(2){
+	margin-right: 4%;
+	margin-left: 4%;
+}
+#form input:last-child{
+	margin-right: 0;
+	background-color: #fff;
+	color: #111;
+	border: none;
+	border-radius: 0;
+}
+
+
+/* Footer */
+.footer{
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+@media (min-width: 700.9px){
+	#nav-bar{
+		display: inline;
+	}
+	.nav-sub{
+		display: none;
+	}
+}
+
+@media  (max-width: 700px){
+	#nav-bar{
+		display: none;
+	}
+	.nav-sub{
+		display: inline;
+		color: #fff;
+		font-size: 2rem;
+		background-color: #111;
+	}
+	.nav-bar i{
+		color: #fff;
+		background-color: #111;
+	}
+	.estoque-info{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.midia video{
+		width: 100%;
+		margin-bottom: 20px;	
+	}
+	.midia p{
+		width: 100%;
+	}
+	.footer{
+		display: flex;
+		flex-direction: column;
+	}
+	#form input{
+		width: 100%;
+	}
+}
