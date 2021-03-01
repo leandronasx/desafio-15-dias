@@ -31,7 +31,6 @@ function criarTarefa(){
     const i = document.createElement("i");
     i.classList.add("fa")
     i.classList.add("fa-trash");
-    i.id = ""+lenLista;
     
     const span = document.createElement("span");
     span.innerText = " "+tarefa;
@@ -52,6 +51,7 @@ function criarTarefa(){
   }
 
   campoTarefa.value = "";
+  removerTarefa();
 }
 
 botaoTarefa.addEventListener("click", criarTarefa);
@@ -63,3 +63,13 @@ campoTarefa.addEventListener("keypress", function(e){
   }
 });
 
+function removerTarefa(){
+  let isRemove = document.getElementsByTagName("i");
+  let ul = document.getElementById("card-tarefas");
+  for(let i = 0; i<isRemove.length; i++){
+    isRemove[i].addEventListener("click", function(){
+      let li = document.getElementById(this.parentNode.id);
+      ul.removeChild(li);
+    });
+  }
+}
